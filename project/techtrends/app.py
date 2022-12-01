@@ -9,7 +9,7 @@ from werkzeug.exceptions import abort
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
-
+ 
 # Function to get a database connection.
 # This function connects to database with the name `database.db`
 def get_db_connection():
