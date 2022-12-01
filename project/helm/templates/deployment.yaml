@@ -35,5 +35,5 @@ spec:
 
         readinessProbe:
           httpGet:
-            path: {{ .Values.livenessProbe.httpGet.path }} 
-            port: {{ .Values.livenessProbe.httpGet.port }} 
+            path: {{ .Values.readinessProbe.httpGet.path }} 
+            port: {{ .Values.readinessProbe.httpGet.port }} 
