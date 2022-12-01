@@ -7,7 +7,7 @@ service:
 
 image:
   repository: yusufmagdy/techtrends   
-  tag: 1.18.0
+  tag: latest
   pullPolicy: IfNotPresent
 
 replicaCount: 3
